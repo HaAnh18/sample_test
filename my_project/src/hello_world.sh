@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "Hello, Ha Anh!"
+NAME=${1:-"[Your Name]"}
+echo "Hello, $NAME!"
 
 mkdir -p ../logs/
 
